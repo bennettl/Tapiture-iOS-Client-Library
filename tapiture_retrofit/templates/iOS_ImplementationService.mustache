@@ -1,0 +1,70 @@
+//
+//  BL{{apiName}}Service.m
+//  API Name: {{apiName}}
+//
+//  Created by Bennett Lee on 2/7/14.
+//
+
+#import "BL{{apiName}}Service.h"
+#import <AFNetworking/AFNetworking.h>
+#import "NSDictionary+QueryString.h"
+#import "NSString+MD5.h"
+
+@implementation BL{{apiName}}Service
+
+// Sets baseURL to be use for all REST API calls
+- (id)initWithBaseURL:(NSString *)baseURL{
+	if (self = [super init]){
+		self.baseURL = baseURL;
+	}
+	return self;
+}
+{{#apis}}
+{{#operations}}
+{{^pathHasURLComponent}}
+
+/******** {{nickname}}: {{{summary}}} ********/ 
+{{#comments}}
+Parameters
+-------------------
+{{#parameters}}
+@param {{name}} ({{description}}) of type {{dataType}}  
+{{/parameters}}
+
+Query Parameters
+-------------------
+{{#queryParameters}}
+@param {{name}} ({{description}}) of type {{dataType}}  
+{{/queryParameters}}
+
+Path Parameters
+-------------------
+{{#pathParameters}}
+@param {{name}} ({{description}}) of type {{dataType}}  
+{{/pathParameters}}
+
+Other Info
+-------------------
+HttpMethod: 			{{httpMethod}}
+Path: 					{{path}}
+argumentString:			{{{argumentString}}}
+NickName: 				{{nickname}}
+Note: APIs with url components are NOT generated
+{{/comments}}
+- (void){{nickname}}{{{argumentString}}}
+{
+
+	// Setup path and parameters
+    NSDictionary *params	                = {{{paramsString}}};
+    NSString *path                          = {{{pathString}}};
+	
+	// Setup manager and perform action
+	{{{AFHTTPRequestOperationManagerString}}}
+
+}
+
+{{/pathHasURLComponent}}
+{{/operations}}
+{{/apis}}
+
+@end

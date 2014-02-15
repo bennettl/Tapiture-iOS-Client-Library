@@ -1,0 +1,27 @@
+//
+//  BL{{apiName}}Service.h
+//  API Name: {{apiName}}
+//
+//  Created by Bennett Lee on 2/7/14.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface BL{{apiName}}Service : NSObject
+
+@property (nonatomic, strong) NSString *baseURL;
+
+// Sets baseURL to be use for all REST API calls
+- (id)initWithBaseURL:(NSString *)baseURL;
+
+{{#apis}}
+{{#operations}}
+{{^pathHasURLComponent}}
+// {{nickname}}: {{{summary}}}
+- (void){{nickname}}{{{argumentString}}};
+
+{{/pathHasURLComponent}}
+{{/operations}}
+{{/apis}}
+
+@end
