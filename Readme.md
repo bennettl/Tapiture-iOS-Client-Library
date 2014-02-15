@@ -1,7 +1,7 @@
-README!
-By Bennett Lee
+#README
+##By Bennett Lee
 
-The goal of "BL iOS Client" is to make your life easier and more productive. With the help of Mustache and Swagger, "BL iOS Client" will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client libray will handle the networking while you focus on writing code that matters.
+The goal of "BL iOS Client" is to make your life easier and more productive. With the help of the good people at *Mustache* and *Swagger*, "BL iOS Client" will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client library will handle the networking while you focus on writing code that matters.
 
 Whenever an update occurs, simply import "tapiture_retrofit" folder into Eclipse and run the program. Sit back, relax, and the corresponding interface (.h) and implementation (.m) files will be automatically generated for you. Pretty sweet.
 
@@ -14,4 +14,4 @@ Additional  Notes:
 * Make sure to include categories (NSDictionary+QuerySTring and NSString+MD5)
 * For passwords, the function will take care of the MD5 encrpytion (just send the regular password to the function).
 
-// http://staging.tapiture.com:9012/images/w300/58/75/bd/b7/28508c40277044ba6459f57c.png
+
