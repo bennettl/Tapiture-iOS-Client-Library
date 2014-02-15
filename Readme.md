@@ -64,6 +64,3 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 - Make sure to include categories (NSDictionary+QuerySTring and NSString+MD5)
 
 - For passwords, the function will take care of the MD5 encrpytion (just send the regular password to the function).
-
-// http://staging.tapiture.com:9012/images/w300/58/75/bd/b7/28508c40277044ba6459f57c.png
-
