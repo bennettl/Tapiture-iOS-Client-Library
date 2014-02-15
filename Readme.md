@@ -1,6 +1,6 @@
 #Tapiture iOS Client Library
 
-The goal of "BL iOS Client" is to make your life easier and more productive. With the help of the good people at *Mustache* and *Swagger*, "BL iOS Client" will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client library will handle the networking while you focus on writing code that matters.
+The goal of The **Tapiture iOS Client Library** is to make your life easier and more productive. With the help of the good people at *Mustache* and *Swagger*, **Tapiture iOS Client Library** will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client library will handle the networking while you focus on writing code that matters.
 
 Whenever an update occurs, simply import "tapiture_retrofit" folder into Eclipse and run the program. Sit back, relax, and the corresponding interface (.h) and implementation (.m) files will be automatically generated for you. Pretty sweet.
 
@@ -8,14 +8,16 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 
 ##What You Do
 ```obj-c
-    [userServce followedUsersWithUserId:[NSNumber numberWithInt:93]
-                               andStart:[NSNumber numberWithInt:1]
-                               andCount:[NSNumber numberWithInt:1]
-                                success:^(id responseObject) {
-                                    NSLog(@"%@", responseObject);
-                                } failure:^(NSError *error) {
-                                    NSLog(@"Error %@", error);
-                                }];
+// Get Request: Load a page of users the user is following
+
+[userServce followedUsersWithUserId:[NSNumber numberWithInt:93]
+                           andStart:[NSNumber numberWithInt:1]
+                           andCount:[NSNumber numberWithInt:1]
+                            success:^(id responseObject) {
+                                NSLog(@"%@", responseObject);
+                            } failure:^(NSError *error) {
+                                NSLog(@"Error %@", error);
+                            }];
 
 ```
 
