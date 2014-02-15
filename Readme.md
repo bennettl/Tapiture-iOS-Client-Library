@@ -17,11 +17,11 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
                                     NSLog(@"Error %@", error);
                                 }];
 
-````
+```
 
 ##What iOS Client Library Does
 
-````objective-c
+```objective-c
 - (void)followedUsersWithUserId:(NSNumber *)userId
 				andStart:(NSNumber *)start
 				andCount:(NSNumber *)count
