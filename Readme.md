@@ -7,7 +7,7 @@ Whenever an update occurs, simply import "tapiture_retrofit" folder into Eclipse
 I created a BLClientLibraryDemo Project to give you some concrete examples on how the iOS Client Library works. Below is a simple example.
 
 ##What You Do
-```objective-c
+```antlr-objc
     [userServce followedUsersWithUserId:[NSNumber numberWithInt:93]
                                andStart:[NSNumber numberWithInt:1]
                                andCount:[NSNumber numberWithInt:1]
@@ -21,7 +21,7 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 
 ##What iOS Client Library Does
 
-```objective-c
+```antlr-objc
 - (void)followedUsersWithUserId:(NSNumber *)userId
 				andStart:(NSNumber *)start
 				andCount:(NSNumber *)count
