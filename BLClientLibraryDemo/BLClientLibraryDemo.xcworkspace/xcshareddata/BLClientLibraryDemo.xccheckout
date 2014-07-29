@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4776652B-2545-49E3-9757-82E39D590159</string>
+	<string>021D5CA5-090B-418F-A758-946BF26A7C55</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BLClientLibraryDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9E07A3DD-A402-408C-A71B-247FECB47184</key>
-		<string>ssh://ops.tapiture.com:7999/ut/tapiture_retrofit.git</string>
+		<key>D2CB9FDE-BC87-49F8-873F-A33B1679EA72</key>
+		<string>ssh://ops.tapiture.com:7999/mob/bl-ios-client.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BLClientLibraryDemo/BLClientLibraryDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9E07A3DD-A402-408C-A71B-247FECB47184</key>
+		<key>D2CB9FDE-BC87-49F8-873F-A33B1679EA72</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://ops.tapiture.com:7999/ut/tapiture_retrofit.git</string>
+	<string>ssh://ops.tapiture.com:7999/mob/bl-ios-client.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9E07A3DD-A402-408C-A71B-247FECB47184</string>
+	<string>D2CB9FDE-BC87-49F8-873F-A33B1679EA72</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9E07A3DD-A402-408C-A71B-247FECB47184</string>
+			<string>D2CB9FDE-BC87-49F8-873F-A33B1679EA72</string>
 			<key>IDESourceControlWCCName</key>
-			<string>tapiture_retrofit</string>
+			<string>bl-ios-client</string>
 		</dict>
 	</array>
 </dict>

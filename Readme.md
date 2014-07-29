@@ -1,4 +1,5 @@
 #Tapiture iOS Client Library
+### By Bennett Lee
 
 The goal of The **Tapiture iOS Client Library** is to make your life easier and more productive. With the help of the good people at *Mustache* and *Swagger*, **Tapiture iOS Client Library** will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client library will handle the networking while you focus on writing code that matters.
 
