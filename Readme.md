@@ -53,6 +53,10 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 }
 ```
 
+Tapiture's Swagger UI
+
+![Alt text](Tapiture-Swagger-UI.png)
+
 
 **Additional  Notes:**
 
