@@ -1,5 +1,7 @@
 #Tapiture iOS Client Library
-### By Bennett Lee
+#### By Bennett Lee
+
+### Description
 
 The goal of The **Tapiture iOS Client Library** is to make your life easier and more productive. With the help of the good people at *Mustache* and *Swagger*, **Tapiture iOS Client Library** will dynamically generate an Objective-C client library from the Tapiture REST API. No longer will you need to write an new api functions as Tapiture's API updates. The iOS client library will handle the networking while you focus on writing code that matters.
 
@@ -7,7 +9,7 @@ Whenever an update occurs, simply import "tapiture_retrofit" folder into Eclipse
 
 I created a BLClientLibraryDemo Project to give you some concrete examples on how the iOS Client Library works. Below is a simple example.
 
-##What You Do
+### What You Do
 ```obj-c
 // Get Request: Load a page of users the user is following
 
@@ -22,7 +24,7 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 
 ```
 
-##What iOS Client Library Does
+### What iOS Client Library Does
 
 ```obj-c
 - (void)followedUsersWithUserId:(NSNumber *)userId
@@ -53,12 +55,12 @@ I created a BLClientLibraryDemo Project to give you some concrete examples on ho
 }
 ```
 
-Tapiture's Swagger UI
+### Tapiture's Swagger UI
 
 ![Alt text](Tapiture-Swagger-UI.png)
 
 
-**Additional  Notes:**
+### Additional  Notes
 
 - If a field is optional, DO NOT pass nil, pass an empty string instead
 
